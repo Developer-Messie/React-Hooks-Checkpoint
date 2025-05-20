@@ -1,0 +1,28 @@
+.filter-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #eee;
+    gap: 15px;
+}
+
+.filter-input {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 250px;
+    box-sizing: border-box;
+    /* Include padding in the element's total width and height */
+}
+
+.filter-input::placeholder {
+    color: #aaa;
+}
+
+.filter-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
