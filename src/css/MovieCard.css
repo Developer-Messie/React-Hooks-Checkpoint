@@ -42,3 +42,15 @@
     font-size: 1.2em;
     color: gold;
 }
+
+
+
+
+
+
+
+/* Inside MovieCard.css or global */
+.movie-link {
+    text-decoration: none;
+    color: inherit;
+}
